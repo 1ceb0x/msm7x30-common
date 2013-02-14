@@ -75,6 +75,11 @@ PRODUCT_PACKAGES += \
 #PRODUCT_PACKAGES += \
     camera.msm7x30
 
+#Prebuilts
+PRODUCT_PACKAGES += \
+     device/htc/msm7x30-common/prebuilt/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so 
+
+
 # QCOM OMX
 PRODUCT_PACKAGES += \
     libOmxCore \
